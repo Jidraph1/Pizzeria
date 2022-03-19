@@ -16,9 +16,10 @@ body{
 nav{
     background-color: rgb(226, 239, 245);
     height: 90px;
-    width: 110%;
-    margin-bottom: 8%;
+    width: 90%;
+    margin-bottom: 4%;
     border-radius: 20px;
+    margin-left: 20px;
 }
 label.logo{ 
     color: rgb(156, 114, 114);
@@ -55,15 +56,39 @@ nav ul li a{
     text-align: center;
     margin-top: 20px;
 }
-img{
-    height: 200px;
+.container h2 {
+    font-size: 70px;
+    font-style: italic;
+}
+.container img1{
+    height: 250px;
     width: 500px;
     border-radius: 30px;
     border-style: outset;
-    
+}
+.cards{
+    margin: 0;
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    font-family: sans-serif;
+}
+.card{
+    box-shadow: 0,0,0;
 }
 
+.card__img {
+    width: 100%;
+    display: block;
+}
 
+.card__content{
+    line-height: 1.5;
+    font-size: 0,.9cm;
+    padding: 15px;
+    background-color: #fafafa;
+}
 
 .footer.social{
     text-align: center;
