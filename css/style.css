@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(218, 248, 248);
+}
+
+.container{
+    margin: 0;
+    padding-left: 10%;
+    margin-top: 30px;
+}
+.container h2{
+    font-size: 40px;
+
+}
+nav{
+    background-color: rgb(226, 239, 245);
+    height: 90px;
+    width: 110%;
+    margin-bottom: 8%;
+    border-radius: 20px;
+}
+label.logo{ 
+    color: rgb(156, 114, 114);
+    font-size: 65px;
+    line-height: 80px;
+    padding: 0;
+    font-weight: bold;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color: rgb(24, 18, 18);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 75%;
+    font-style: helvetica;
+
+}
+.active{
+    background-color: rgb(208, 196, 219);
+}
+#logo {
+    font-size: 40px;
+    color: rgb(127, 144, 158);
+    margin-left: 20px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    margin-top: 20px;
+}
+img{
+    height: 200px;
+    width: 500px;
+    border-radius: 30px;
+    border-style: outset;
+    
+}
+
+
+
+.footer.social{
+    text-align: center;
+    padding-bottom: 25px;
+    color: rgb(68, 57, 57);
+}
