@@ -62,9 +62,12 @@ orderMoreBtn.addEventListener('click', function() {
       `
       totalPrice += priceOfPizza
       console.log(totalPrice)
-
-
 })
+ checkout.addEventListener('click', function() {
+     total.innerHTML =`
+     `
+ })
+
 
 
 
