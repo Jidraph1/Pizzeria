@@ -1,3 +1,12 @@
+// Pic/Paragraph Toggle
+$(document).ready(function(){
+    $("#introPic").hover(function(){
+        $("#img1").toggle(2000);
+        $("#introParagraph").toggle(2000);
+    });
+});
+
+
 // Inputs
 const pizzaSize = document.getElementById('pizzaSize');
 const pizzaTopping = document.getElementById('pizzaTopping');
@@ -70,7 +79,7 @@ orderMoreBtn.addEventListener('click', function() {
      total.innerHTML =`
      <p>Your order total is Ksh.${totalPrice}</p>
      <p id="delivery"> Would you like us to deliver your order at an extra cost of Ksh200?</p>
-     <button type="submit" id="deliverYes">Yes</button>
+     <button type="submit" class="btn-secondary" id="deliverYes">Yes</button>
      <button type="submit" id="deliverNo">No</button>
      `
 
