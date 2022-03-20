@@ -106,6 +106,9 @@ h3 {
 tr:nth-child(even) {
     background-color: #dddddd;
 }
+/* #locationInfo{
+    display: none;
+} */
 
 /* WEEK PROMOTION */
 .cards{

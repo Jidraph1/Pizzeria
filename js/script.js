@@ -22,9 +22,20 @@ orderDetails.style.visibility = 'hidden'
 
 pizzaData = {
     "Small":{"price":500, "topping":200, "crust":250},
-    "Medium":{"price":700, "topping":300, "crust":350}
+    "Medium":{"price":700, "topping":300, "crust":350},
     "Large":{"price":1000, "topping":450, "crust":500} 
 }
+
+let totalPrice = 0
+let noOfOrders = 0
+
+placeOrder.addEventListener('click', function() {
+    orderDetails.style.visibility = 'visible'
+    const size = pizzaSize.value
+    const priceOfPizza = pizzaData[size].price + pizzaData[size].topping + pizzaData[size].crust
+    totalPrice += priceOfPizza
+
+})
 
 
 
