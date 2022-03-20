@@ -12,6 +12,10 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <header>
+        <p>For Reservations <br>
+        call +2547 01 226 226</p>
+    </header>
     <nav>
         <label class="logo">Gustavo's</label>
         <ul>
@@ -21,7 +25,7 @@
             <li><a href="#">Contact</a></li>
         </ul>
     </nav>
-    
+
     <div class="container intro">
     <div class="row">
         <div class="col-md-6">
@@ -43,20 +47,20 @@
              <div class=" make order col-lg-4 col-md-6 col-sm-12">
                  <img src="images/Spinning-pizza-dough.png" id="img2" alt=".">
                  <h5>Pizza size</h5>
-                 <select class="select">
+                 <select class="select" id="pizzaSize">
                      <option disabled selected>--Size--</option>
                      <option value="Small" id="small">Small</option>
                      <option value="Medium" id="medium">Medium</option>
                      <option value="Large" id="large">Large</option>
-                     
+
                  </select>
              </div>
              <div class="col-lg-4 col-md-6 col-sm-12">
                  <img src="images/toppings.jpg" id="img2" alt=".">
                  <h5>Toppings</h5>
-                 <select class="select">
+                 <select class="select" id="pizzaTopping">
                     <option disabled selected>--Toppings--</option>
-                    <option value="Extra Cheese" id="cheese">Cheese</option>
+                    <option value="Cheese" id="cheese">Cheese</option>
                     <option value="Olives" id="olives">Olives</option>
                     <option value="Peperoni" id="peperoni">Peperoni</option>
  
@@ -65,17 +69,22 @@
              <div class="col-lg-4 col-md-6 col-sm-12">
                  <img src="images/pizzadough.jpg" id="img2" alt=".">
                  <h5>Pizza base</h5>
-                 <select class="select">
-                    <option disabled selected>-Base--</option>
+                 <select class="select" id="pizzaCrust">
+                    <option disabled selected>--Base--</option>
                     <option value="Crispy" id="crispy">Crispy</option>
                     <option value="Stuffed" id="stuffed">Stuffed</option>
-                    <option value="Gluten_Free" id="glutten">Glutten Free</option>
+                    <option value="Gluten Free" id="glutten">Glutten Free</option>
  
                  </select>
              </div>
          </div>
          <br> 
          <button type="submit" class="btn btn-danger">Place Order</button>
+         <button type="submit" class="btn btn-primary">Add Order</button>
+         <button type="submit" class="btn btn-secondary">Checkout</button>
+
+         <!-- Table -->
+
      </div> 
 
      <br>
