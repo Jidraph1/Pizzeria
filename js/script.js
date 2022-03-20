@@ -84,9 +84,17 @@ orderMoreBtn.addEventListener('click', function() {
 
             locationInfo.style.visibility = 'hidden'
             const location = document.getElementById('location')
-            total.innerHTML =
+            total.innerHTML = `
+            <p>Great. Your order will be delivered to ${location.value}</p> 
+            `
          })
      })
+     document.getElementById('deliverNo').addEventListener('click', function(){
+        total.innerHTML = `
+        <p>Enjoy your meal. Your order total is Ksh.${totalPrice}</p>
+        `
+    })
+
  })
 
 
