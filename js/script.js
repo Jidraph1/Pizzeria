@@ -43,8 +43,8 @@ placeOrder.addEventListener('click', function() {
     <td>${priceOfPizza}</td>
     </tr>`
 
-    orderMoreBtn.style.display = 'visible'
-    placeOrder.style.display = 'hidden'
+    orderMoreBtn.style.visibility = 'visible'
+    placeOrder.style.visibility = 'hidden'
 })
 
 orderMoreBtn.addEventListener('click', function() {
@@ -70,7 +70,26 @@ orderMoreBtn.addEventListener('click', function() {
      <button type="submit" id="deliverYes">Yes</button>
      <button type="submit" id="deliverNo">No</button>
      `
+
+     checkout.style.visibility = 'hidden'
+     orderMoreBtn.style.visibility = 'hidden'
+
+     document.getElementById('deliverYes').addEventListener('click', function(){
+         totalPrice += 200
+         total.innerHTML =`
+         <p>Your Order total is now ${totalPrice}</p>
+         `
+         locationInfo.style.visibility = 'visible'
+         deliver.addEventListener('click', function(){
+
+            locationInfo.style.visibility = 'hidden'
+            const location = document.getElementById('location')
+            total.innerHTML =
+         })
+     })
  })
+
+
 
 
 
