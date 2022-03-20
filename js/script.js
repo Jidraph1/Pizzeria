@@ -34,6 +34,17 @@ placeOrder.addEventListener('click', function() {
     const size = pizzaSize.value
     const priceOfPizza = pizzaData[size].price + pizzaData[size].topping + pizzaData[size].crust
     totalPrice += priceOfPizza
+    orderSummary.innerHTML += `
+    <tr>
+    <td>${noOfOrders += 1}</td>
+    <td>${pizzaSize.value}</td>
+    <td>${pizzaTopping.value}</td>
+    <td>${pizzaCrust.value}</td>
+    <td>${priceOfPizza}</td>
+    </tr>`
+
+    orderMoreBtn.style.display = 'visible'
+    placeOrder.style.display = 'hidden'
 
 })
 
