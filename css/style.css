@@ -106,6 +106,10 @@ h3 {
 tr:nth-child(even) {
     background-color: #dddddd;
 }
+#tot{
+    font-style: italic;
+    font-size: 20px;
+}
 /* #locationInfo{
     display: none;
 } */
