@@ -81,9 +81,33 @@
          <br> 
          <button type="submit" class="btn btn-danger">Place Order</button>
          <button type="submit" class="btn btn-primary">Add Order</button>
-         <button type="submit" class="btn btn-secondary">Checkout</button>
 
+
+         <br> <br>
          <!-- Table -->
+         <div id="orderDetails">
+             <h3>Order Summary:</h3>
+             <table style="width: 80%;" id="orderSummary">
+                <tr>
+                <th>Order</th>
+                <th>Size</th>
+                <th>Toppings</th>
+                <th>Crust/Base</th>
+                <th>Total</th>
+            </tr>
+             </table>
+
+             <br>
+             <div id="total"></div>
+             <div id="locationInfo">
+                 <p>Where should your pizza be delivered to?</p>
+                 <input type="text" id="location">
+                 <button type="submit" class="btn btn-secondary" id="deliver"> Deliver</button>
+                 <br><br>
+                 <button type="submit" class="btn btn-secondary">Checkout</button>
+             </div>
+
+         </div>
 
      </div> 
 

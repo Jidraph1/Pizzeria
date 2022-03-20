@@ -103,6 +103,10 @@ h3 {
     text-align: centre;
     font-style: italic;
 }
+tr:nth-child(even) {
+    background-color: #dddddd;
+
+}
 
 /* WEEK PROMOTION */
 .cards{
