@@ -29,6 +29,7 @@ pizzaData = {
 let totalPrice = 0
 let noOfOrders = 0
 
+// OrderDetails
 placeOrder.addEventListener('click', function() {
     orderDetails.style.visibility = 'visible'
     const size = pizzaSize.value
@@ -46,6 +47,8 @@ placeOrder.addEventListener('click', function() {
     orderMoreBtn.style.visibility = 'visible'
     placeOrder.style.visibility = 'hidden'
 })
+
+// Add Order
 
 orderMoreBtn.addEventListener('click', function() {
     const size = pizzaSize.value
