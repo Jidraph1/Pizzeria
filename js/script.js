@@ -65,6 +65,10 @@ orderMoreBtn.addEventListener('click', function() {
 })
  checkout.addEventListener('click', function() {
      total.innerHTML =`
+     <p>Your order total is Ksh.${totalPrice}</p>
+     <p id="delivery"> Would you like us to deliver your order at an extra cost of Ksh200?</p>
+     <button type="submit" id="deliverYes">Yes</button>
+     <button type="submit" id="deliverNo">No</button>
      `
  })
 
