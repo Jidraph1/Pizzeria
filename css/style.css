@@ -112,9 +112,7 @@ tr:nth-child(even) {
     font-style: italic;
     font-size: 20px;
 }
-/* #locationInfo{
-    display: none;
-} */
+
 
 /* WEEK PROMOTION */
 .cards{
@@ -136,7 +134,7 @@ tr:nth-child(even) {
     display: block;
 }
 card__img:hover{
-
+    opacity: 0.4;
 }
 
 .card__content{
