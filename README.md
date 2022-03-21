@@ -23,7 +23,7 @@ Visual Studio Code was the text editor used to build the website.
 * Javascript
 
 # Resources 
-* Templates used to develop the abover landing page were form cdnjs for the fonts, and icons too. 
+* Templates used to develop the above landing page were form cdnjs for the fonts, and icons too. 
 * Pizza Info is from SoloGrano pizza ltd.
 
 # Author
